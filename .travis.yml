@@ -8,3 +8,13 @@ before_install:
 
 script:
   - docker run -e CI=true shioncoder/docker-react npm run test
+
+deploy:
+  provider: elasticbeanstalk
+  region: "ap-southeast-1"
+  app: "docker-react"
+  env: "Dockerreact-env-1"
+  bucker_name: "elasticbeanstalk-ap-southeast-1-335268551950"
+  bucker_path: "docker-react"
+  on:
+    branch: master
