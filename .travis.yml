@@ -19,6 +19,6 @@ deploy:
   on:
     branch: master
   access_key_id: 
-    secure: "AKIAU4D4QDUHB36ISA4V"
+    secure: "Encrypted <access-key-id>=AKIAU4D4QDUHB36ISA4V"
   secret_access_key: 
-    secure: "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"
+    secure: "Encrypted <secret-access-key>=FtU0NWovH+J6xH87tELx+9zLYBlQA5EbOjbrUeaP"
